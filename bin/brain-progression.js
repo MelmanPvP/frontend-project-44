@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import Name from "../src/cli.js";
-import readlineSync, {question} from "readline-sync";
+import readlineSync from "readline-sync";
 const name = Name()
 console.log('What number is missing in the progression?')
 let answers = 0;

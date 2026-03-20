@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import Name from "../src/cli.js";
-import readlineSync, {question} from "readline-sync";
+import readlineSync from "readline-sync";
 const name = Name()
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
 let answers = 0;

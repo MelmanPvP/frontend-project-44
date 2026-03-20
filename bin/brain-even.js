@@ -14,14 +14,19 @@ for (  let answers = 0; answers <= 4;) {
     else if (answer === 'yes') {
         let wrong = answer
         answer = 'no'
-        console.log(`\'${wrong}\' is wrong answer ;(. Correct answer was \'${answer}\'.`)
+        console.log(`'${wrong}' is wrong answer ;(. Correct answer was '${answer}'.`)
         console.log(`Let's try again, ${name}!`)
         break
     }
     else if (answer === 'no') {
         let wrong = answer
         answer = 'yes'
-        console.log(`\'${wrong}\' is wrong answer ;(. Correct answer was \'${answer}\'.`)
+        console.log(`'${wrong}' is wrong answer ;(. Correct answer was '${answer}'.`)
+        console.log(`Let's try again, ${name}!`)
+        break
+    }
+    else {
+        console.log(`'${answer}' is wrong answer ;(. Correct answer was '${num1 % 2 === 0 ? 'yes' : 'no'}'.`)
         console.log(`Let's try again, ${name}!`)
         break
     }
