@@ -24,7 +24,7 @@ console.log('What is the result of the expression?')
               correctAnswer = num1 * num2;
               break
       }
-      console.log(`Question:${num1} ${operator} ${num2}`)
+      console.log(`Question: ${num1} ${operator} ${num2}`)
 
       const answer = Number(readlineSync.question('Your answer: '))
       if (answer === correctAnswer){
