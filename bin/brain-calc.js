@@ -40,6 +40,3 @@ while (answers < 3) {
     console.log(`Congratulations, ${name}!`)
   }
 }
-
-
-
