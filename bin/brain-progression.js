@@ -16,16 +16,16 @@ function ProgGen() {
       rightAnswer = a + i * b
     }
     else {
-      Question += ` ${ a + i * b }`
-     }
+      Question += ` ${a + i * b}`
+    }
 
   }
-  return {Question, rightAnswer}
+  return { Question, rightAnswer }
 }
 
 while (answers < 3) {
-  let {Question,rightAnswer}= ProgGen()
-  console.log(`Question: ${ Question }`)
+  let { Question, rightAnswer } = ProgGen()
+  console.log(`Question: ${Question}`)
   const answer = Number(readlineSync.question('Your answer: '))
   if (answer === rightAnswer) {
     console.log('Correct!')
