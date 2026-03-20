@@ -6,7 +6,6 @@ let answers = 0;
 while (answers < 3){
     let num1 = Math.floor(Math.random() * 100);
     let num2 = Math.floor(Math.random() * 100);
-    let num3 = Math.floor(Math.random() * 3) + 1;
     let correctAnswer;
     console.log(`Question: ${num1} ${num2}`)
     const answer = Number(readlineSync.question('Your answer: '))
