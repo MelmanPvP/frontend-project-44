@@ -18,7 +18,6 @@ function ProgGen() {
     else {
       Question += ` ${a + i * b}`
     }
-
   }
   return { Question, rightAnswer }
 }
