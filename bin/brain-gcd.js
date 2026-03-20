@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import Name from "../src/cli.js";
 import readlineSync from "readline-sync";
 const name = Name()
