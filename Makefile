@@ -1,11 +1,11 @@
 install:
-	'C:\Program Files\nodejs/npm.cmd' ci
+	node ci
 brain-games:
-	'C:\Program Files\nodejs/node.exe' bin/brain-games.js
+	node bin/brain-games.js
 publish:
-	'C:\Program Files\nodejs/npm.cmd' publish --dry-run
+	npm publish --dry-run
 lint:
-	'C:\Program Files\nodejs/npx.cmd' eslint
+	npx eslint
 brain-even:
 	node bin/brain-even.js
 brain-calc:
